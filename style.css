@@ -205,9 +205,15 @@ Main Btn Style End
 ==========================
 */
 
-
 #page {
   overflow: hidden;
+}
+
+.sec-subtitle {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  display: block;
 }
 
 /*
@@ -410,7 +416,11 @@ How It Works Section End
 ============================
 */
 
-
+/*
+============================
+Our Fleet Section Start
+============================
+*/
 .our-fleet-box {
 	border-radius: 48px;
 	 /* border: 1px solid var(--gradient-gradient-4, #FFF);  */
@@ -432,11 +442,6 @@ How It Works Section End
   background-size: cover;
   background-position: center;
   z-index: -1;
-}
-.fleet-subtitle {
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 500;
 }
 
 .our-fleet-title div {
@@ -497,8 +502,11 @@ How It Works Section End
   margin-top: 50px;
 }
 
+.cars-slide-item {
+  position: relative;
+}
+
 .cars-img {
-	position: relative;
 	margin-right: 30px;
 }
 
@@ -523,6 +531,11 @@ How It Works Section End
 	bottom: 24px;
 }
 
+/*
+============================
+Our Fleet Section End
+============================
+*/
 
 /*
 ============================
@@ -561,6 +574,27 @@ Responsive Style Start
 /* -----Laptop--device-screen--------- */
 @media only screen and (max-width:1199px) {
 
+.how-it-work-list-item {
+    gap: 0;
+}
+
+.how-it-work-list-title h4 {
+	margin-right: 45px;
+}
+
+.how-it-work-list-title {
+	gap: 20px;
+}
+
+.cars-content {
+	padding: 20px;
+}
+
+.our-fleet-box {
+	padding: 55px 60px;
+}
+
+
 }
 /* -----Tablet--device-screen--------- */
 @media only screen and (max-width:991px) {
@@ -571,6 +605,79 @@ Responsive Style Start
 .banner-cars {
 	margin-top: 50px;
 }
+
+.how-it-work-wrap {
+	display: initial;
+}
+
+.how-it-work-left {
+	gap: 80px;
+	max-width: 100%;
+}
+
+.how-it-work-service li {
+	padding: 5px 26px;
+	margin-right: 4px;
+}
+
+.how-it-work-right {
+	margin-top: 30px;
+}
+
+.how-it-work-right {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.how-it-work-list-item {
+	display: initial;
+	width: 31%;
+}
+
+.how-it-work-list-title {
+	display: initial;
+	gap: 32px;
+	flex: 1 0 0;
+}
+
+.how-it-work-list-title h4 {
+	margin-right: 0;
+	margin-top: 12px;
+}
+
+.how-it-work-list-title h4 br {
+  display: none;
+}
+
+.how-it-work-list-title h4, .how-it-work-list-title span {
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+.our-fleet-box .sec-subtitle {
+	margin-bottom: 16px;
+}
+
+.our-fleet-title {
+	margin-bottom: 46px;
+}
+
+.our-fleet-title div {
+	justify-content: space-between;
+}
+
+.fleet-cars-image img {
+	width: 100%;
+}
+
+.fleet-cars-info {
+	margin-top: 48px;
+}
+
+
 
 }
 /* -----Mobile--device-screen--------- */
@@ -630,6 +737,45 @@ Responsive Style Start
 	margin-bottom: 35px;
 }
 
+.how-it-work-left {
+	gap: 64px;
+}
+
+.how-it-work-right {
+	margin-top: 32px;
+}
+
+.how-it-work-list-item {
+	display: flex;
+	width: 100%;
+	gap: 25px;
+}
+
+.our-fleet-box {
+	padding: 40px 20px;
+}
+
+.our-fleet-box::after {
+	width: 100%;
+	background-position: center left;
+}
+
+.our-fleet-title div {
+	gap: 16px;
+	flex-wrap: wrap;
+}
+
+.our-fleet-box .sec-subtitle {
+	margin-bottom: 12px;
+}
+
+.cars-price {
+  margin-top: 16px;
+}
+
+.fleet-cars-info div {
+	display: initial;
+}
 }
 /*
 ============================

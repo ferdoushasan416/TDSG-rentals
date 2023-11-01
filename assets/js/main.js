@@ -51,7 +51,7 @@ hamburger.addEventListener("click", () => {
             slidesToScroll: 1,
             prevArrow: false,
             nextArrow: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             responsive: [
               {
