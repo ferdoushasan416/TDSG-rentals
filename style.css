@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary: #1F1F84;
+  --solid-grey-100: #7B7B85;
+  --black: #000000;
+  --white-color: #fff;
+  --body-bg-color: #010103;
+}
+
+/*
+===============================
+Global CSS START
+===============================
+*/
+
+body {
+  color: var(--solid-grey-100);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: -0.64px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--body-bg-color);
+}
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease-out 0s;
+  display: block;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: normal;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  background: var(--gradient-gradient-1, linear-gradient(139deg, #FFF7E1 16.13%, #E0E0E0 73.09%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 991px) {
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+ }
+
+h4 {
+    font-size: 24px;
+ }
+
+h5 {
+    font-size: 20px;
+
+  }
+}
+
+@media screen and (min-width: 1360px) {
+h1 {
+    font-size: 72px; 
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+ margin: 0;
+}
+
+
+/*
+============================
+Main Btn Style Start
+===========================
+*/
+
+.site-btn {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: var(--white-color);
+  background-color: var(--primary);
+  transition: 0.3s all ease;
+  border-radius: 4px;
+  letter-spacing: -0.14px;
+}
+
+.site-btn:hover {
+  color: var(--white-color);
+}
+
+.header-primary-btn .site-btn {
+  padding: 10px 28px;
+}
+
+/*
+==========================
+Main Btn Style End
+==========================
+*/
+
+
+#page {
+  overflow: hidden;
+}
+
+/*
+============================
+Global CSS END
+============================
+*/
+
+/*
+============================
+Header Section Start
+============================
+*/
+
+.main-header {
+	padding: 30px 0;
+	position: relative;
+}
+
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.main-menu ul li a {
+  color: var(--white-color);
+  font-size: 14px;
+  display: block;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+  font-family: IBM Plex Sans;
+  transition: 0.3s all ease;
+}
+
+.main-menu ul li:hover a {
+  color: var(--solid-grey-100);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+/*
+============================
+Header Section  End
+============================
+*/
+
+/*
+============================
+Banner Section Start
+============================
+*/
+
+.shape-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.banner-wrapper {
+  margin-top: 72px;
+}
+
+.banner-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.banner-list {
+  margin-bottom: 24px;
+}
+
+.banner-list li {
+	color: var(--white-color);
+	font-size: 18px;
+	cursor: pointer;
+	font-style: italic;
+	position: relative;
+	display: inline-block;
+	margin: 0 28px;
+}
+
+.banner-list img {
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
+.banner-list li::after {
+	content: "/";
+	position: absolute;
+	right: -34px;
+	color: var(--solid-grey-100);
+}
+
+.banner-list li:last-child:after{
+  display: none !important;
+}
+
+.banner-item span {
+	font-size: 32px;
+	margin-top: 16px;
+	margin-bottom: 35px;
+}
+
+.banner-cars {
+  margin-top: 10px;
+  z-index: -1;
+}
+/*
+============================
+Banner Section End
+============================
+*/
+
+/*
+============================
+How It Works Section Start
+============================
+*/
+.how-it-work-wrapper {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.how-it-work-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.how-it-work-left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 181px;
+	max-width: 304px;
+}
+
+.how-it-work-service li {
+  border-radius: 25px;
+  border: 1px solid var(--solid-dark-300, #18182D);
+  background: var(--solid-dark-200, #12121E);
+  backdrop-filter: blur(2px);
+  padding: 8px 16px;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.how-it-work-list-item {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.how-it-work-list-title {
+	display: flex;
+	gap: 32px;
+	flex: 1 0 0;
+}
+
+.how-it-work-list-title span {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.how-it-work-list-title h4 {
+	font-weight: 500;
+	letter-spacing: -0.96px;
+	margin-right: 65px;
+}
+
+.how-it-work-list-content p {
+	max-width: 318px;
+	flex-shrink: 0;
+}
+
+/*
+============================
+How It Works Section End
+============================
+*/
+
+
+/*
+============================
+Footer Section Start
+============================
+*/
+
+
+
+/*
+============================
+Footer Section End
+============================
+*/
+
+
+
+
+
+
+
+
+/*
+============================
+Responsive Style Start
+============================
+*/
+
+@media screen and (min-width: 1360px) {
+
+ .container{
+   max-width: 1300px;
+ }
+
+}
+/* -----Laptop--device-screen--------- */
+@media only screen and (max-width:1199px) {
+
+}
+/* -----Tablet--device-screen--------- */
+@media only screen and (max-width:991px) {
+.main-menu ul li {
+   margin: 0px 7px;
+}
+
+.banner-cars {
+	margin-top: 50px;
+}
+
+}
+/* -----Mobile--device-screen--------- */
+@media only screen and (max-width:767px) {
+
+.hamburger {
+  display: block;
+ }
+
+ .main-menu ul {
+	position: absolute;
+	left: -100%;
+	top: 100%;
+	width: 100%;
+	z-index: 9;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px 4px 24px 24px;
+	background: linear-gradient(180deg, #010103 0%, #0D0D1E 100%);
+	box-shadow: 0px 16px 48px 0px rgba(1, 1, 3, 0.32);
+	transition: 0.3s all ease;
+	padding: 5px 20px 40px 20px;
+}
+  
+.main-menu ul.active {
+  left: 0;
+}
+  
+.main-menu ul li a {
+  font-size: 16px;
+}
+
+.main-menu ul li {
+	border-bottom: 1px solid #232341;
+	padding-bottom: 18px;
+	margin-bottom: 20px;
+}
+
+.header-primary-btn .site-btn {
+	display: block;
+  font-size: 16px;
+}
+
+.banner-list li {
+	margin: 0 14px;
+  font-size: 14px;
+}
+
+.banner-list li::after {
+	right: -18px;
+}
+
+.banner-item span {
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+}
+/*
+============================
+Responsive Style End
+============================
+*/
