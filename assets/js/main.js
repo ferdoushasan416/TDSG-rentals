@@ -51,7 +51,7 @@ hamburger.addEventListener("click", () => {
             slidesToScroll: 1,
             prevArrow: false,
             nextArrow: false,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             responsive: [
               {
@@ -61,13 +61,7 @@ hamburger.addEventListener("click", () => {
                 }
               },
               {
-                breakpoint: 768,
-                settings: {
-                  slidesToShow: 1
-                }
-              },
-              {
-                breakpoint: 480,
+                breakpoint: 991,
                 settings: {
                   slidesToShow: 1
                 }
@@ -83,7 +77,7 @@ hamburger.addEventListener("click", () => {
             slidesToScroll: 1,
             prevArrow: false,
             nextArrow: false,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             responsive: [
               {
@@ -93,40 +87,24 @@ hamburger.addEventListener("click", () => {
                 }
               },
               {
-                breakpoint: 768,
+                breakpoint: 991,
                 settings: {
                   slidesToShow: 2
                 }
               },
               {
-                breakpoint: 480,
+                breakpoint: 767,
                 settings: {
                   slidesToShow: 1
                 }
               }
+             
             ]
           });
          
       });
 
-     
-
-
-
-
-/* magnificPopup img view */
-$('.popup-image').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
-	}
-});
-
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-	type: 'iframe'
-});
-
+      
 
 // WOW active
 new WOW().init();
