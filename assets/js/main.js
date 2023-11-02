@@ -77,6 +77,38 @@ hamburger.addEventListener("click", () => {
          
       });
 
+        $(document).ready(function(){
+          $('.testimonials-slide').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: false,
+            nextArrow: false,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            responsive: [
+              {
+                breakpoint: 1199,
+                settings: {
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1
+                }
+              }
+            ]
+          });
+         
+      });
+
      
 
 

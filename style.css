@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
 
 :root {
-  --primary: #1F1F84;
-  --solid-grey-100: #7B7B85;
-  --black: #000000;
-  --white-color: #fff;
-  --body-bg-color: #010103;
+ --primary: #1f1f84;
+ --solid-grey-100: #7b7b85;
+ --black: #000000;
+ --white-color: #fff;
+ --body-bg-color: #010103;
 }
 
 /*
@@ -15,49 +15,49 @@ Global CSS START
 */
 
 body {
-  color: var(--solid-grey-100);
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.5rem;
-  letter-spacing: -0.64px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  background-color: var(--body-bg-color);
+ color: var(--solid-grey-100);
+ font-size: 16px;
+ font-weight: 300;
+ line-height: 24.48px;
+ letter-spacing: -0.64px;
+ font-family: "IBM Plex Sans", sans-serif;
+ background-color: var(--body-bg-color);
 }
 
 html,
 body {
-  min-width: 320px;
-  scroll-behavior: smooth;
+ min-width: 320px;
+ scroll-behavior: smooth;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  transition: all 0.3s ease-out 0s;
-  display: block;
+ max-width: 100%;
+ height: auto;
+ transition: all 0.3s ease-out 0s;
+ display: block;
 }
 
 a,
 .button {
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+ -webkit-transition: all 0.3s ease-out 0s;
+ -moz-transition: all 0.3s ease-out 0s;
+ -ms-transition: all 0.3s ease-out 0s;
+ -o-transition: all 0.3s ease-out 0s;
+ transition: all 0.3s ease-out 0s;
 }
 
 a:focus,
 .button:focus {
-  text-decoration: none;
-  outline: none;
+ text-decoration: none;
+ outline: none;
 }
 
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-  color: var(--white-color);
-  text-decoration: none;
+ color: var(--white-color);
+ text-decoration: none;
 }
 
 h1,
@@ -66,11 +66,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
-  font-style: normal;
-  font-weight: 600;
-  text-transform: normal;
-  line-height: 1.2;
+ font-weight: normal;
+ font-style: normal;
+ font-weight: 600;
+ text-transform: normal;
+ line-height: 1.2;
 }
 
 h1,
@@ -78,78 +78,78 @@ h2,
 h3,
 h4,
 h5 {
-  background: var(--gradient-gradient-1, linear-gradient(139deg, #FFF7E1 16.13%, #E0E0E0 73.09%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
+ background: var(
+  --gradient-gradient-1,
+  linear-gradient(139deg, #fff7e1 16.13%, #e0e0e0 73.09%)
+ );
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-weight: 600;
 }
 
 h1 {
-  font-size: 56px;
+ font-size: 56px;
 }
 
 h2 {
-  font-size: 30px;
+ font-size: 30px;
 }
 
 h3 {
-  font-size: 24px;
+ font-size: 24px;
 }
 
 h4 {
-  font-size: 20px;
+ font-size: 20px;
 }
 
 h5 {
-  font-size: 18px;
+ font-size: 18px;
 }
 
 @media screen and (min-width: 991px) {
-
-h1 {
-    font-size: 72px;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 28px;
+ h1 {
+  font-size: 72px;
  }
 
-h4 {
-    font-size: 24px;
+ h2 {
+  font-size: 35px;
  }
 
-h5 {
-    font-size: 20px;
+ h3 {
+  font-size: 28px;
+ }
 
-  }
+ h4 {
+  font-size: 24px;
+ }
+
+ h5 {
+  font-size: 20px;
+ }
 }
 
 @media screen and (min-width: 1360px) {
-h1 {
-    font-size: 72px; 
-}
+ h1 {
+  font-size: 72px;
+ }
 
-h2 {
-    font-size: 48px;
-}
+ h2 {
+  font-size: 48px;
+ }
 
-h3 {
-    font-size: 40px;
-}
+ h3 {
+  font-size: 40px;
+ }
 
-h4 {
-    font-size: 24px;
-}
+ h4 {
+  font-size: 24px;
+ }
 
-h5 {
-    font-size: 20px;
-}
-
+ h5 {
+  font-size: 20px;
+ }
 }
 
 h1 a,
@@ -158,19 +158,18 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: inherit;
+ color: inherit;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+ margin: 0;
+ padding: 0;
+ list-style: none;
 }
 
 p {
  margin: 0;
 }
-
 
 /*
 ============================
@@ -179,24 +178,24 @@ Main Btn Style Start
 */
 
 .site-btn {
-  font-size: 14px;
-  font-weight: 400;
-  padding: 12px 16px;
-  cursor: pointer;
-  display: inline-block;
-  color: var(--white-color);
-  background-color: var(--primary);
-  transition: 0.3s all ease;
-  border-radius: 4px;
-  letter-spacing: -0.14px;
+ font-size: 14px;
+ font-weight: 400;
+ padding: 12px 16px;
+ cursor: pointer;
+ display: inline-block;
+ color: var(--white-color);
+ background-color: var(--primary);
+ transition: 0.3s all ease;
+ border-radius: 4px;
+ letter-spacing: -0.14px;
 }
 
 .site-btn:hover {
-  color: var(--white-color);
+ color: var(--white-color);
 }
 
 .header-primary-btn .site-btn {
-  padding: 10px 28px;
+ padding: 10px 28px;
 }
 
 /*
@@ -206,14 +205,29 @@ Main Btn Style End
 */
 
 #page {
-  overflow: hidden;
+ overflow: hidden;
 }
 
 .sec-subtitle {
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 500;
-  display: block;
+ font-size: 16px;
+ font-style: italic;
+ font-weight: 500;
+ display: block;
+}
+
+.gradient-line {
+ position: absolute;
+ z-index: -1;
+}
+
+.gradient-line.line-1 {
+ top: 35px;
+ left: 20%;
+}
+
+.gradient-line.line-2 {
+ bottom: 20%;
+ left: 6%;
 }
 
 /*
@@ -229,38 +243,38 @@ Header Section Start
 */
 
 .main-header {
-	padding: 30px 0;
-	position: relative;
+ padding: 30px 0;
+ position: relative;
 }
 
 .main-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
 }
 
 .main-menu ul li {
-  display: inline-block;
-  margin: 0 30px;
+ display: inline-block;
+ margin: 0 30px;
 }
 
 .main-menu ul li a {
-  color: var(--white-color);
-  font-size: 14px;
-  display: block;
-  font-weight: 500;
-  letter-spacing: -0.14px;
-  font-family: IBM Plex Sans;
-  transition: 0.3s all ease;
+ color: var(--white-color);
+ font-size: 14px;
+ display: block;
+ font-weight: 500;
+ letter-spacing: -0.14px;
+ font-family: IBM Plex Sans;
+ transition: 0.3s all ease;
 }
 
 .main-menu ul li:hover a {
-  color: var(--solid-grey-100);
+ color: var(--solid-grey-100);
 }
 
 .hamburger {
-  display: none;
-  cursor: pointer;
+ display: none;
+ cursor: pointer;
 }
 /*
 ============================
@@ -275,63 +289,63 @@ Banner Section Start
 */
 
 .shape-bg {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center top;
+ background-repeat: no-repeat;
 }
 
 .banner-wrapper {
-  margin-top: 72px;
+ margin-top: 72px;
 }
 
 .banner-item {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
 }
 
 .banner-list {
-  margin-bottom: 24px;
+ margin-bottom: 24px;
 }
 
 .banner-list li {
-	color: var(--white-color);
-	font-size: 18px;
-	cursor: pointer;
-	font-style: italic;
-	position: relative;
-	display: inline-block;
-	margin: 0 28px;
+ color: var(--white-color);
+ font-size: 18px;
+ cursor: pointer;
+ font-style: italic;
+ position: relative;
+ display: inline-block;
+ margin: 0 28px;
 }
 
 .banner-list img {
-  float: left;
-  margin-top: 4px;
-  margin-right: 10px;
+ float: left;
+ margin-top: 4px;
+ margin-right: 10px;
 }
 
 .banner-list li::after {
-	content: "/";
-	position: absolute;
-	right: -34px;
-	color: var(--solid-grey-100);
+ content: "/";
+ position: absolute;
+ right: -34px;
+ color: var(--solid-grey-100);
 }
 
-.banner-list li:last-child:after{
-  display: none !important;
+.banner-list li:last-child:after {
+ display: none !important;
 }
 
 .banner-item span {
-	font-size: 32px;
-	margin-top: 16px;
-	margin-bottom: 35px;
+ font-size: 32px;
+ margin-top: 16px;
+ margin-bottom: 35px;
 }
 
 .banner-cars {
-  margin-top: 10px;
-  z-index: -1;
+ margin-top: 10px;
+ z-index: -1;
 }
 /*
 ============================
@@ -345,69 +359,69 @@ How It Works Section Start
 ============================
 */
 .how-it-work-wrapper {
-  padding-top: 50px;
-  padding-bottom: 100px;
+ padding-top: 50px;
+ padding-bottom: 100px;
 }
 
 .how-it-work-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: start;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ align-items: start;
 }
 
 .how-it-work-left {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 181px;
-	max-width: 304px;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 181px;
+ max-width: 304px;
 }
 
 .how-it-work-service li {
-  border-radius: 25px;
-  border: 1px solid var(--solid-dark-300, #18182D);
-  background: var(--solid-dark-200, #12121E);
-  backdrop-filter: blur(2px);
-  padding: 8px 16px;
-  display: inline-block;
-  margin-right: 4px;
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: var(--white-color);
+ border-radius: 25px;
+ border: 1px solid var(--solid-dark-300, #18182d);
+ background: var(--solid-dark-200, #12121e);
+ backdrop-filter: blur(2px);
+ padding: 8px 16px;
+ display: inline-block;
+ margin-right: 4px;
+ margin-bottom: 10px;
+ font-size: 14px;
+ color: var(--white-color);
 }
 
 .how-it-work-list-item {
-	display: flex;
-	align-items: center;
-	gap: 24px;
-	justify-content: space-between;
-	margin-bottom: 40px;
+ display: flex;
+ align-items: center;
+ gap: 24px;
+ justify-content: space-between;
+ margin-bottom: 40px;
 }
 
 .how-it-work-list-title {
-	display: flex;
-	gap: 32px;
-	flex: 1 0 0;
+ display: flex;
+ gap: 32px;
+ flex: 1 0 0;
 }
 
 .how-it-work-list-title span {
-	font-size: 24px;
-	font-style: italic;
-	font-weight: 300;
-	margin-top: 5px;
-	margin-right: 10px;
+ font-size: 24px;
+ font-style: italic;
+ font-weight: 300;
+ margin-top: 5px;
+ margin-right: 10px;
 }
 
 .how-it-work-list-title h4 {
-	font-weight: 500;
-	letter-spacing: -0.96px;
-	margin-right: 65px;
+ font-weight: 500;
+ letter-spacing: -0.96px;
+ margin-right: 65px;
 }
 
 .how-it-work-list-content p {
-	max-width: 318px;
-	flex-shrink: 0;
+ max-width: 318px;
+ flex-shrink: 0;
 }
 
 /*
@@ -421,114 +435,121 @@ How It Works Section End
 Our Fleet Section Start
 ============================
 */
+
+.our-fleet-wrapper {
+ padding-bottom: 72px;
+}
+
 .our-fleet-box {
-	border-radius: 48px;
-	 /* border: 1px solid var(--gradient-gradient-4, #FFF);  */
-	background: var(--gradient-gradient-2, linear-gradient(180deg, #0E0E26 0%, rgba(10, 10, 30, 0.00) 100%));
-	padding: 72px 96px;
-	position: relative;
-	z-index: 2;
+ border-radius: 48px;
+ background: var(
+  --gradient-gradient-2,
+  linear-gradient(180deg, #0e0e26 0%, rgba(10, 10, 30, 0) 100%)
+ );
+ padding: 72px 96px;
+ position: relative;
+ z-index: 2;
 }
 
 .our-fleet-box:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 764px;
-  height: 384px;
-  background-image: url(assets/images/color-blur.png);
-  top: 0;
-  border-radius: 48px;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
+ content: "";
+ position: absolute;
+ right: 0;
+ width: 764px;
+ height: 384px;
+ background-image: url(assets/images/color-blur.png);
+ top: 0;
+ border-radius: 48px;
+ background-size: cover;
+ background-position: center;
+ z-index: -1;
 }
 
 .our-fleet-title div {
-	display: flex;
-	align-items: center;
-	gap: 56px;
+ display: flex;
+ align-items: center;
+ gap: 56px;
 }
 
 .our-fleet-title {
-  margin-bottom: 56px;
+ margin-bottom: 56px;
 }
 
 .fleet-cars-info div {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 8px;
+ display: flex;
+ justify-content: space-between;
+ margin-top: 8px;
 }
 
 .cars-price h4 span {
-  color: var(--solid-grey-100) !important;
+ color: var(--solid-grey-100) !important;
 }
 
 .fleet-cars-info p {
-	font-size: 16px;
-	line-height: 153%;
-	margin-top: 20px;
+ font-size: 16px;
+ line-height: 153%;
+ margin-top: 20px;
 }
 
 .cars-model-list {
-	margin-top: 30px;
+ margin-top: 30px;
 }
 
 .cars-model-list li {
-	color: var(--white-color);
-	font-size: 14px;
-	position: relative;
-	margin-bottom: 6px;
+ color: var(--white-color);
+ font-size: 14px;
+ position: relative;
+ margin-bottom: 6px;
 }
 
 .cars-model-list li span {
-  color: var(--solid-grey-100);
+ color: var(--solid-grey-100);
 }
 
 .cars-model-list li::before {
-	content: "";
-	width: 12px;
-	height: 12px;
-	background-image: url(assets/images/fleet-list-icon.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	object-fit: cover;
-	object-position: center;
-	display: inline-block;
-	margin-right: 10px;
+ content: "";
+ width: 12px;
+ height: 12px;
+ background-image: url(assets/images/fleet-list-icon.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ object-fit: cover;
+ object-position: center;
+ display: inline-block;
+ margin-right: 10px;
 }
 
 .cars-slide-active {
-  margin-top: 50px;
+ margin-top: 50px;
 }
 
 .cars-slide-item {
-  position: relative;
+ position: relative;
 }
 
-.cars-img {
-	margin-right: 30px;
+.cars-slide-active  .slick-slide div {
+ margin-right: 20px;
 }
 
 .cars-img img {
-  width: 100%;
+ width: 100%;
 }
 
 .cars-content {
-	position: absolute;
-	top: 0;
-	padding: 24px;
-	width: 100%;
-	height: 100%;
+ position: absolute;
+ top: 0;
+ padding: 24px;
+ width: 100%;
+ height: 100%;
 }
 
 .cars-content span {
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
-	color: var(--white-color);
-	position: absolute;
-	bottom: 24px;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ color: var(--white-color);
+ position: absolute;
+ bottom: 24px;
 }
 
 /*
@@ -536,6 +557,263 @@ Our Fleet Section Start
 Our Fleet Section End
 ============================
 */
+
+/*
+================================
+Luxurious About Section Start
+================================
+*/
+
+.luxurious-about-wrapper {
+	padding-top: 176px;
+	padding-bottom: 126px;
+	position: relative;
+	z-index: 2;
+	min-height: 778px;
+}
+
+.about-bg {
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.luxurious-about-content h2 {
+ font-style: italic;
+ font-weight: 400;
+ font-family: "IBM Plex Sans", sans-serif;
+ letter-spacing: -2.24px;
+ line-height: 1.4;
+}
+
+.luxurious-about-content h2:first-child {
+ max-width: 536px;
+}
+
+.luxurious-about-content h2:last-child {
+ max-width: 427px;
+ margin-top: 40px;
+ margin-left: 312px;
+}
+
+ .luxurious-about-img {
+	position: absolute;
+	right: 0;
+	top: 70px;
+	z-index: -1;
+}   
+/*
+================================
+Luxurious About Section End
+================================
+*/
+
+/*
+=========================
+HQ Forom Section Start
+=========================
+*/
+
+.form-wrapper {
+ margin-top: 40px;
+ position: relative;
+}
+
+.form-wrapper:before {
+ position: absolute;
+ left: 0;
+ width: 100%;
+ height: 1px;
+ background: #a0ccff;
+ filter: blur(0px);
+ content: "";
+ top: 50%;
+ transform: translateY(-50%);
+ z-index: -1;
+ background: rgba(0, 148, 255, 0.8);
+ mix-blend-mode: hard-light;
+}
+
+.form-bg-wrap {
+ border-radius: 24px;
+ background: var(--solid-dark-300, #18182d);
+ height: 600px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/*
+=========================
+HQ Forom Section End
+=========================
+*/
+
+/*
+=============================
+About Company Section Start
+==============================
+*/
+.about-company-wrapper .container {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+.about-content {
+	max-width: 480px;
+	margin-left: -30px;
+} 
+
+.about-content .sec-subtitle {
+	margin-bottom: 6px;
+}
+
+ .about-content h2 {
+   line-height: 52.8px;
+ }
+
+ .about-content p {
+	line-height: 23.2px;
+	max-width: 480px;
+}
+
+ .about-content p a {
+   color: var(--solid-grey-100);
+   text-decoration: underline;
+ }
+
+ .about-bottom {
+   margin-top: 40px;
+
+ }
+
+/*
+=============================
+About Company Section End
+==============================
+*/
+
+/*
+=============================
+Testimonial Section Start
+==============================
+*/
+.testimonials-wrapper {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .testimonials-title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .testimonials-title .sec-subtitle {
+   margin-bottom: 15px;
+ }
+
+ .testimonials-item {
+   border-radius: 16px;
+   background: var(--solid-blue-navy-100, #232341);
+   padding: 40px;
+ }
+ .testimonials-slide {
+   margin-top: 58px;
+ }
+
+ .testimonials-item {
+   border-radius: 16px;
+   background: var(--solid-blue-navy-100, #232341);
+   padding: 40px;
+ }
+
+ .testimonials-slide {
+   margin-top: 58px;
+ }
+
+ .testimonials-content h4 {
+   margin-bottom: 15px;
+ }
+
+ .testimonials-content p {
+   font-size: 14px;
+   line-height: 1.4;
+ }
+
+ .testimonials-author {
+   margin-top: 24px;
+ }
+
+ .testimonials-author h5 {
+   font-size: 18px;
+   margin-bottom: 8px;
+ }
+
+ .testimonials-author span {
+   font-size: 14px;
+   color: var(--white-color);
+   opacity: 0.5;
+ }
+
+ .testimonials-slide .slick-slide div {
+	margin-right: 15px;
+}
+/*
+=============================
+Testimonial Section End
+==============================
+*/
+
+
+
+.frequently-questions-wrapper {
+  position: relative;
+}
+
+.frequently-questions-box {
+  border-radius: 48px;
+  background: var(--gradient-gradient-2, linear-gradient(180deg, #0E0E26 0%, rgba(10, 10, 30, 0.00) 100%));
+  padding: 88px 96px;
+  position: relative;
+  z-index: 2;
+}
+
+.frequently-questions-box:before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 764px;
+  height: 305px;
+  background-image: url(assets/images/color-blur-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  z-index: -1;
+  
+}
+
+.frequently-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.frequently-content .sec-subtitle {
+  margin-bottom: 15px;
+}
+
+.frequently-content h2 {
+  line-height: 52.8px;
+  margin-bottom: 24px;
+}
+
+.frequently-content p {
+  margin-bottom: 48px;
+}
+
 
 /*
 ============================
@@ -554,10 +832,6 @@ Footer Section End
 
 
 
-
-
-
-
 /*
 ============================
 Responsive Style Start
@@ -565,220 +839,275 @@ Responsive Style Start
 */
 
 @media screen and (min-width: 1360px) {
+ .container {
+  max-width: 1252px;
+ }
+}
 
- .container{
-   max-width: 1252px;
+/* -----Laptop--device-screen--------- */
+@media only screen and (max-width: 1199px) {
+ .how-it-work-list-item {
+  gap: 0;
+ }
+
+ .how-it-work-list-title h4 {
+  margin-right: 45px;
+ }
+
+ .how-it-work-list-title {
+  gap: 20px;
+ }
+
+ .cars-content {
+  padding: 20px;
+ }
+
+ .our-fleet-box {
+  padding: 55px 60px;
+ }
+
+ .gradient-line.line-2 {
+  left: 0;
+ }
+
+ .luxurious-about-content h2:first-child {
+  max-width: 420px;
  }
 
 }
-/* -----Laptop--device-screen--------- */
-@media only screen and (max-width:1199px) {
 
-.how-it-work-list-item {
-    gap: 0;
-}
-
-.how-it-work-list-title h4 {
-	margin-right: 45px;
-}
-
-.how-it-work-list-title {
-	gap: 20px;
-}
-
-.cars-content {
-	padding: 20px;
-}
-
-.our-fleet-box {
-	padding: 55px 60px;
-}
-
-
-}
 /* -----Tablet--device-screen--------- */
-@media only screen and (max-width:991px) {
-.main-menu ul li {
-   margin: 0px 7px;
-}
+@media only screen and (max-width: 991px) {
+ .main-menu ul li {
+  margin: 0px 7px;
+ }
 
-.banner-cars {
-	margin-top: 50px;
-}
+ .banner-cars {
+  margin-top: 50px;
+ }
 
-.how-it-work-wrap {
-	display: initial;
-}
+ .how-it-work-wrap {
+  display: initial;
+ }
 
-.how-it-work-left {
-	gap: 80px;
-	max-width: 100%;
-}
+ .how-it-work-left {
+  gap: 80px;
+  max-width: 100%;
+ }
 
-.how-it-work-service li {
-	padding: 5px 26px;
-	margin-right: 4px;
-}
+ .how-it-work-service li {
+  padding: 5px 26px;
+  margin-right: 4px;
+ }
 
-.how-it-work-right {
-	margin-top: 30px;
-}
+ .how-it-work-right {
+  margin-top: 30px;
+ }
 
-.how-it-work-right {
-	display: flex;
-	gap: 24px;
-	flex-wrap: wrap;
+ .how-it-work-right {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 30px;
-}
+ }
 
-.how-it-work-list-item {
-	display: initial;
-	width: 31%;
-}
+ .how-it-work-list-item {
+  display: initial;
+  width: 31%;
+ }
 
-.how-it-work-list-title {
-	display: initial;
-	gap: 32px;
-	flex: 1 0 0;
-}
+ .how-it-work-list-title {
+  display: initial;
+  gap: 32px;
+  flex: 1 0 0;
+ }
 
-.how-it-work-list-title h4 {
-	margin-right: 0;
-	margin-top: 12px;
-}
+ .how-it-work-list-title h4 {
+  margin-right: 0;
+  margin-top: 12px;
+ }
 
-.how-it-work-list-title h4 br {
+ .how-it-work-list-title h4 br {
   display: none;
+ }
+
+ .how-it-work-list-title h4,
+ .how-it-work-list-title span {
+  font-size: 20px;
+  margin-bottom: 16px;
+ }
+
+ .our-fleet-box .sec-subtitle {
+  margin-bottom: 16px;
+ }
+
+ .our-fleet-title {
+  margin-bottom: 46px;
+ }
+
+ .our-fleet-title div {
+  justify-content: space-between;
+ }
+
+ .fleet-cars-image img {
+  width: 100%;
+ }
+
+ .fleet-cars-info {
+  margin-top: 48px;
+ }
+
+ .luxurious-about-content h2:first-child,
+ .luxurious-about-content h2:last-child {
+  max-width: 100%;
+  margin: 0;
+  line-height: 1.2;
+ }
+
+ .luxurious-about-content {
+  max-width: 480px;
+ }
+
+ .luxurious-about-content h2:last-child {
+  margin-top: 0;
+  margin-left: 0;
+ }
+
+ br {
+  display: none;
+ }
+
+ .form-bg-wrap {
+	height: 520px;
 }
 
-.how-it-work-list-title h4, .how-it-work-list-title span {
-	font-size: 20px;
-	margin-bottom: 16px;
+ .about-company-wrapper .container {
+	flex-wrap: wrap;
 }
 
-.our-fleet-box .sec-subtitle {
-	margin-bottom: 16px;
+.about-content {
+	margin-left: 0;
 }
 
-.our-fleet-title {
-	margin-bottom: 46px;
 }
 
-.our-fleet-title div {
-	justify-content: space-between;
-}
-
-.fleet-cars-image img {
-	width: 100%;
-}
-
-.fleet-cars-info {
-	margin-top: 48px;
-}
-
-
-
-}
 /* -----Mobile--device-screen--------- */
-@media only screen and (max-width:767px) {
-
-.hamburger {
+@media only screen and (max-width: 767px) {
+ .hamburger {
   display: block;
  }
 
  .main-menu ul {
-	position: absolute;
-	left: -100%;
-	top: 100%;
-	width: 100%;
-	z-index: 9;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	border-radius: 4px 4px 24px 24px;
-	background: linear-gradient(180deg, #010103 0%, #0D0D1E 100%);
-	box-shadow: 0px 16px 48px 0px rgba(1, 1, 3, 0.32);
-	transition: 0.3s all ease;
-	padding: 5px 20px 40px 20px;
-}
-  
-.main-menu ul.active {
+  position: absolute;
+  left: -100%;
+  top: 100%;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px 4px 24px 24px;
+  background: linear-gradient(180deg, #010103 0%, #0d0d1e 100%);
+  box-shadow: 0px 16px 48px 0px rgba(1, 1, 3, 0.32);
+  transition: 0.3s all ease;
+  padding: 5px 20px 40px 20px;
+ }
+
+ .main-menu ul.active {
   left: 0;
-}
-  
-.main-menu ul li a {
+ }
+
+ .main-menu ul li a {
   font-size: 16px;
-}
+ }
 
-.main-menu ul li {
-	border-bottom: 1px solid #232341;
-	padding-bottom: 18px;
-	margin-bottom: 20px;
-}
+ .main-menu ul li {
+  border-bottom: 1px solid #232341;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+ }
 
-.header-primary-btn .site-btn {
-	display: block;
+ .header-primary-btn .site-btn {
+  display: block;
   font-size: 16px;
-}
+ }
 
-.banner-list li {
-	margin: 0 14px;
+ .banner-list li {
+  margin: 0 14px;
   font-size: 14px;
-}
+ }
 
-.banner-list li::after {
-	right: -18px;
-}
+ .banner-list li::after {
+  right: -18px;
+ }
 
-.banner-item span {
-	font-size: 20px;
-	margin-top: 15px;
-	margin-bottom: 35px;
-}
+ .banner-item span {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+ }
 
-.how-it-work-left {
-	gap: 64px;
-}
+ .how-it-work-left {
+  gap: 64px;
+ }
 
-.how-it-work-right {
-	margin-top: 32px;
-}
+ .how-it-work-right {
+  margin-top: 32px;
+ }
 
-.how-it-work-list-item {
-	display: flex;
-	width: 100%;
-	gap: 25px;
-}
+ .how-it-work-list-item {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+ }
 
-.our-fleet-box {
-	padding: 40px 20px;
-}
+ .our-fleet-wrapper {
+  padding-bottom: 10px;
+ }
 
-.our-fleet-box::after {
-	width: 100%;
-	background-position: center left;
-}
+ .our-fleet-box {
+  padding: 40px 20px;
+ }
 
-.our-fleet-title div {
-	gap: 16px;
-	flex-wrap: wrap;
-}
+ .our-fleet-box::after {
+  width: 100%;
+  background-position: center left;
+ }
 
-.our-fleet-box .sec-subtitle {
-	margin-bottom: 12px;
-}
+ .our-fleet-title div {
+  gap: 16px;
+  flex-wrap: wrap;
+ }
 
-.cars-price {
+ .our-fleet-box .sec-subtitle {
+  margin-bottom: 12px;
+ }
+
+ .cars-price {
   margin-top: 16px;
+ }
+
+ .fleet-cars-info div {
+  display: initial;
+ }
+
+ .luxurious-about-wrapper {
+	min-height: 475px;
 }
 
-.fleet-cars-info div {
-	display: initial;
+ .luxurious-about-content h2 {
+  font-size: 24px;
+ }
+
+ .luxurious-about-content h2:first-child,
+ .luxurious-about-content h2:last-child {
+  max-width: 300px;
+ }
 }
-}
+
 /*
-============================
-Responsive Style End
-============================
+ ============================
+ Responsive Style End
+ ============================
 */
