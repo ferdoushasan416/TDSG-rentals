@@ -339,9 +339,9 @@ Banner Section Start
 }
 
 .banner-item span {
-  font-size: 32px;
-  margin-top: 16px;
-  margin-bottom: 35px;
+	font-size: 32px;
+	margin-top: 16px;
+	margin-bottom: 30px;
 }
 
 .banner-cars {
@@ -597,12 +597,7 @@ Luxurious About Section Start
   margin-left: 312px;
 }
 
-.luxurious-about-img {
-  position: absolute;
-  right: 0;
-  top: 70px;
-  z-index: -1;
-}
+
 /*
 ================================
 Luxurious About Section End
@@ -772,11 +767,11 @@ Testimonial Section End
 
 /*
 ====================================
-Frequently-Ouestions-Section-Start
+Rental-Rules-Section-Start
 =====================================
 */
 
-.frequently-questions-wrapper {
+.rental-rules-wrapper {
 	padding-top: 136px;
 	padding-bottom: 0;
 	background-size: cover;
@@ -784,7 +779,7 @@ Frequently-Ouestions-Section-Start
 	background-color: #000;
 }
 
-.frequently-questions-box {
+.rental-rules-box {
   border-radius: 48px;
   background: var(
     --gradient-gradient-2,
@@ -795,7 +790,7 @@ Frequently-Ouestions-Section-Start
   z-index: 2;
 }
 
-.frequently-questions-box:before {
+.rental-rules-box:before {
   content: "";
   top: 0;
   left: 0;
@@ -809,31 +804,31 @@ Frequently-Ouestions-Section-Start
   z-index: -1;
 }
 
-.frequently-content {
+.rental-rules-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.frequently-content .sec-subtitle {
+.rental-rules-content .sec-subtitle {
   margin-bottom: 15px;
 }
 
-.frequently-content h2 {
+.rental-rules h2 {
   line-height: 52.8px;
   margin-bottom: 24px;
 }
 
-.frequently-content p {
+.rental-rules-content p {
 	margin-bottom: 48px;
 	max-width: 224px;
 }
 
-.frequently-content .site-btn {
+.rental-rules-content .site-btn {
   padding: 12px 24px;
 }
 
-.frequently-content .site-btn svg {
+.rental-rules-content .site-btn svg {
   margin-left: 8px;
 }
 
@@ -885,7 +880,7 @@ Frequently-Ouestions-Section-Start
 
 /*
 ====================================
-Frequently-Ouestions-Section-End
+Rental-Rules-Section-End
 =====================================
 */
 
@@ -1100,8 +1095,16 @@ Responsive Style Start
     margin-left: 0;
   }
 
-  .frequently-questions-box {
+  .rental-rules-box {
     padding: 56px 48px;
+  }
+
+  .rental-rules .sec-subtitle {
+    font-size: 18px;
+  }
+
+  .rental-rules p {
+    max-width: 100%;
   }
 
   .accordion {
@@ -1113,14 +1116,10 @@ Responsive Style Start
     max-width: 576px;
   }
 
-  .frequently-content .sec-subtitle {
-    font-size: 18px;
+  .footer-wrapper .container {
+    flex-wrap: wrap;
+    row-gap: 20px;
   }
-
-  .frequently-content p {
-    max-width: 100%;
-  }
-
 
 }
 
@@ -1237,14 +1236,21 @@ Responsive Style Start
     max-width: 300px;
   }
 
-  .frequently-questions-box::before {
+  .rental-rules-box::before {
     width: 100%;
   }
 
-  .frequently-content h2 {
+  .rental-rules h2 {
     line-height: 35px;
     margin-bottom: 20px;
   }
+  
+  .footer-menu ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
 
 }
 
